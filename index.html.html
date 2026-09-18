@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công Ty Xây Dựng Minh Tấn - Thiết Kế & Thi Công Trọn Gói Uy Tín</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter & Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            green: '#126336',
+                            darkgreen: '#0a3d21',
+                            teal: '#103947',
+                            darkteal: '#071e26',
+                            gold: '#d97706',
+                            goldhover: '#b45309',
+                            lightbg: '#f4f8f5'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; }
+        .bg-pattern {
+            background-color: #f8fafc;
+            background-image: radial-gradient(#126336 0.5px, transparent 0.5px), radial-gradient(#126336 0.5px, #f8fafc 0.5px);
+            background-size: 24px 24px;
+            background-position: 0 0, 12px 12px;
+        }
+        .hero-bg {
+            background: linear-gradient(135deg, rgba(7, 30, 38, 0.92) 0%, rgba(10, 61, 33, 0.88) 100%), 
+                        url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1920&auto=format&fit=crop') center/cover no-repeat;
+        }
+        .gold-gradient {
+            background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased overflow-x-hidden">
+
+    <!-- Top Contact Bar -->
+    <div class="bg-brand-darkteal text-slate-300 text-xs sm:text-sm py-2.5 px-4 border-b border-slate-700/60 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center space-x-6">
+                <a href="tel:0901291239" class="hover:text-amber-400 transition flex items-center gap-2 font-medium">
+                    <i class="fa-solid fa-phone text-emerald-400 animate-pulse"></i> Hotline: <span class="font-bold text-white tracking-wide">0901 291 239</span>
+                </a>
+                <a href="https://xaydungminhtan.com" target="_blank" class="hidden sm:flex items-center gap-2 hover:text-amber-400 transition">
+                    <i class="fa-solid fa-globe text-emerald-400"></i> Website: <span class="text-white font-medium">xaydungminhtan.com</span>
+                </a>
+            </div>
+            <div class="flex items-center space-x-4 text-xs">
+                <span class="flex items-center gap-1.5"><i class="fa-regular fa-clock text-emerald-400"></i> Làm việc: 7:30 - 18:00 (T2 - T7)</span>
+                <span class="hidden md:inline">|</span>
+                <span class="hidden md:inline-flex items-center gap-1.5"><i class="fa-solid fa-location-dot text-emerald-400"></i> TP.HCM & Các Tỉnh Lân Cận</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="sticky top-[37px] z-40 bg-white/95 backdrop-blur-md shadow-md transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                
+                <!-- Exact Recreated Logo SVG matching provided logo image -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="relative h-14 bg-white rounded-lg p-1 flex items-center justify-center">
+                        <svg viewBox="0 0 300 280" class="h-full w-auto">
+                            <!-- Green M House Structure -->
+                            <path d="M 20 220 L 75 140 L 110 180 L 140 110 L 170 180 L 210 120 L 210 220 L 180 220 L 180 160 L 150 200 L 130 200 L 100 160 L 70 200 L 45 220 Z" fill="#126336" />
+                            <path d="M 140 30 L 140 100 L 120 80 L 120 30 Z" fill="#126336" />
+                            <path d="M 180 60 L 180 100 L 160 80 L 160 60 Z" fill="#126336" />
+                            <!-- Teal T Structure integrated on right -->
+                            <path d="M 190 90 L 270 90 L 270 120 L 225 120 L 225 220 L 195 220 L 195 120 L 190 120 Z" fill="#103947" />
+                            <!-- Bottom Line detail -->
+                            <rect x="20" y="230" width="250" height="8" rx="4" fill="#126336" />
+                        </svg>
+                    </div>
+                    <div>
+                        <div class="font-black text-2xl tracking-tight text-brand-green leading-none font-heading group-hover:text-brand-teal transition">
+                            MINH TẤN
+                        </div>
+                        <div class="text-[11px] font-extrabold tracking-[0.25em] text-brand-teal uppercase mt-1">
+                            CONSTRUCTION
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Navigation Links -->
+                <nav class="hidden lg:flex items-center space-x-7 font-bold text-slate-700 text-sm">
+                    <a href="#trang-chu" class="text-brand-green border-b-2 border-brand-green pb-1">Trang Chủ</a>
+                    <a href="#gioi-thieu" class="hover:text-brand-green transition">Về Minh Tấn</a>
+                    <a href="#nang-luc" class="hover:text-brand-green transition">Năng Lực Thi Công</a>
+                    <a href="#vat-tu" class="hover:text-brand-green transition">Cam Kết Vật Tư</a>
+                    <a href="#du-an" class="hover:text-brand-green transition">Dự Án 3D & Thực Tế</a>
+                    <a href="#review" class="hover:text-brand-green transition">Đánh Giá</a>
+                    <a href="#faq" class="hover:text-brand-green transition">Hỏi Đáp</a>
+                    <a href="#lien-he" class="hover:text-brand-green transition">Liên Hệ</a>
+                </nav>
+
+                <!-- Header Call CTA -->
+                <div class="hidden sm:flex items-center space-x-3">
+                    <a href="tel:0901291239" class="px-5 py-2.5 rounded-xl bg-brand-green text-white font-extrabold text-sm shadow-md shadow-emerald-900/20 hover:bg-brand-darkgreen transition duration-300 flex items-center gap-2 transform hover:-translate-y-0.5">
+                        <i class="fa-solid fa-headset text-amber-300"></i> 0901 291 239
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobileMenuBtn" class="lg:hidden text-slate-700 hover:text-brand-green p-2 text-2xl focus:outline-none">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer Menu -->
+        <div id="mobileMenu" class="hidden lg:hidden bg-white border-t border-slate-100 shadow-xl px-6 py-5 space-y-4 font-semibold text-slate-700">
+            <a href="#trang-chu" class="block text-brand-green hover:pl-2 transition-all">Trang Chủ</a>
+            <a href="#gioi-thieu" class="block hover:text-brand-green hover:pl-2 transition-all">Về Công Ty Minh Tấn</a>
+            <a href="#nang-luc" class="block hover:text-brand-green hover:pl-2 transition-all">Năng Lực Thi Công</a>
+            <a href="#vat-tu" class="block hover:text-brand-green hover:pl-2 transition-all">Cam Kết Vật Tư</a>
+            <a href="#du-an" class="block hover:text-brand-green hover:pl-2 transition-all">Hình Ảnh Dự Án 3D</a>
+            <a href="#review" class="block hover:text-brand-green hover:pl-2 transition-all">Đánh Giá Khách Hàng</a>
+            <a href="#faq" class="block hover:text-brand-green hover:pl-2 transition-all">Câu Hỏi Thường Gặp</a>
+            <a href="#lien-he" class="block hover:text-brand-green hover:pl-2 transition-all">Liên Hệ Tư Vấn</a>
+            <div class="pt-4 border-t border-slate-100">
+                <a href="tel:0901291239" class="w-full text-center py-3 bg-brand-green text-white rounded-xl font-bold shadow block">
+                    <i class="fa-solid fa-phone mr-2"></i> Hotline: 0901 291 239
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section / Quảng Cáo Thương Hiệu Minh Tấn Construction -->
+    <section id="trang-chu" class="relative hero-bg text-white min-h-[660px] flex items-center py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 text-xs sm:text-sm font-bold tracking-wide uppercase backdrop-blur-sm">
+                    <i class="fa-solid fa-award text-amber-400"></i> Thương Hiệu Xây Dựng & Thiết Kế Trọn Gói Uy Tín
+                </div>
+
+                <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tight">
+                    CÔNG TY XÂY DỰNG <br>
+                    <span class="text-amber-400">MINH TẤN</span> <span class="text-emerald-400">CONSTRUCTION</span>
+                </h1>
+
+                <p class="text-slate-200 text-base sm:text-lg max-w-2xl font-light leading-relaxed">
+                    Chuyên thiết kế kiến trúc, tư vấn giải pháp không gian & phối cảnh 3D nội thất nhà phố, biệt thự. 
+                    Cam kết vật tư chính hãng – Trực tiếp thi công không bán thầu – Bảo hành 5 năm kết cấu bền vững.
+                </p>
+
+                <!-- Value Proposition Highlights -->
+                <div class="pt-2 grid grid-cols-2 sm:grid-cols-3 gap-3 max-w-xl mx-auto lg:mx-0 text-left">
+                    <div class="glass-card p-3.5 rounded-xl">
+                        <i class="fa-solid fa-shield-halved text-amber-400 text-2xl mb-1"></i>
+                        <p class="text-xs font-bold text-slate-100">Bảo Hành 5 Năm</p>
+                        <p class="text-[10px] text-slate-300">Cam kết kết cấu kiên cố</p>
+                    </div>
+                    <div class="glass-card p-3.5 rounded-xl">
+                        <i class="fa-solid fa-user-gear text-emerald-400 text-2xl mb-1"></i>
+                        <p class="text-xs font-bold text-slate-100">Trực Tiếp Thi Công</p>
+                        <p class="text-[10px] text-slate-300">100% Không bán thầu</p>
+                    </div>
+                    <div class="glass-card p-3.5 rounded-xl col-span-2 sm:col-span-1">
+                        <i class="fa-solid fa-cube text-cyan-400 text-2xl mb-1"></i>
+                        <p class="text-xs font-bold text-slate-100">Thiết Kế 3D Chuẩn</p>
+                        <p class="text-[10px] text-slate-300">Tối ưu gầm cầu thang, bếp</p>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="pt-4 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <a href="#du-an" class="px-8 py-4 rounded-xl gold-gradient text-slate-900 font-extrabold shadow-lg shadow-amber-500/30 hover:brightness-110 transition flex items-center justify-center gap-3 text-base">
+                        <i class="fa-solid fa-images text-lg"></i> XEM DỰ ÁN & MẪU 3D
+                    </a>
+                    <a href="tel:0901291239" class="px-8 py-4 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold border border-white/30 backdrop-blur-md transition flex items-center justify-center gap-3 text-base">
+                        <i class="fa-solid fa-phone-volume text-emerald-400 text-lg"></i> 0901 291 239
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Company Card Banner displaying full exact logo representation -->
+            <div class="lg:col-span-5">
+                <div class="bg-white/95 backdrop-blur-xl rounded-3xl p-6 sm:p-8 shadow-2xl border border-white/40 text-slate-800 relative">
+                    <div class="text-center pb-6 border-b border-slate-200">
+                        
+                        <!-- Official Brand Logo Showcase Box -->
+                        <div class="w-full max-w-[280px] mx-auto bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-inner flex flex-col items-center justify-center mb-4">
+                            <svg viewBox="0 0 300 240" class="w-48 h-auto">
+                                <path d="M 20 180 L 75 100 L 110 140 L 140 70 L 170 140 L 210 80 L 210 180 L 180 180 L 180 120 L 150 160 L 130 160 L 100 120 L 70 160 L 45 180 Z" fill="#126336" />
+                                <path d="M 140 10 L 140 70 L 120 50 L 120 10 Z" fill="#126336" />
+                                <path d="M 180 30 L 180 70 L 160 50 L 160 30 Z" fill="#126336" />
+                                <path d="M 190 60 L 270 60 L 270 90 L 225 90 L 225 180 L 195 180 L 195 90 L 190 90 Z" fill="#103947" />
+                                <rect x="20" y="190" width="250" height="8" rx="4" fill="#126336" />
+                            </svg>
+                            <div class="text-2xl font-black tracking-tight text-brand-green font-heading mt-2">
+                                MINH TẤN
+                            </div>
+                            <div class="text-[11px] font-black tracking-[0.3em] text-brand-teal uppercase mt-0.5">
+                                CONSTRUCTION
+                            </div>
+                            <div class="text-xs font-semibold text-slate-600 mt-2 tracking-wide">
+                                xaydungminhtan.com
+                            </div>
+                            <div class="text-xs font-bold text-brand-green">
+                                Hotline: 0901 291 239
+                            </div>
+                        </div>
+
+                        <h3 class="text-lg font-extrabold text-slate-900 uppercase">
+                            ĐĂNG KÝ TƯ VẤN KIẾN TRÚC
+                        </h3>
+                        <p class="text-xs text-slate-500 mt-1">
+                            KTS Minh Tấn Construction sẵn sàng lắng nghe & khảo sát tận nơi miễn phí
+                        </p>
+                    </div>
+
+                    <form onsubmit="handleFormSubmit(event)" class="space-y-3.5 mt-5">
+                        <div>
+                            <label class="block text-[11px] font-bold text-slate-700 uppercase mb-1">Họ và tên *</label>
+                            <input type="text" required placeholder="Nguyễn Văn A" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-green text-xs outline-none bg-white">
+                        </div>
+
+                        <div>
+                            <label class="block text-[11px] font-bold text-slate-700 uppercase mb-1">Số điện thoại / Zalo *</label>
+                            <input type="tel" required placeholder="0901 xxx xxx" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-green text-xs outline-none bg-white">
+                        </div>
+
+                        <div>
+                            <label class="block text-[11px] font-bold text-slate-700 uppercase mb-1">Hạng mục quan tâm</label>
+                            <select class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-green text-xs outline-none bg-white font-medium">
+                                <option>Xây dựng nhà phố trọn gói</option>
+                                <option>Thiết kế kiến trúc & Phối cảnh 3D</option>
+                                <option>Thi công bếp & Nội thất chân cầu thang</option>
+                                <option>Sửa chữa & Cải tạo công trình</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-[11px] font-bold text-slate-700 uppercase mb-1">Nhu cầu cụ thể</label>
+                            <textarea rows="2" placeholder="Ví dụ: Thiết kế bếp 3D dưới gầm cầu thang kính, nhà phố 3 tầng..." class="w-full px-3.5 py-2 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-green text-xs outline-none resize-none bg-white"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full py-3 bg-brand-green hover:bg-brand-darkgreen text-white font-extrabold rounded-xl shadow-lg transition flex items-center justify-center gap-2 text-xs uppercase tracking-wider">
+                            <i class="fa-solid fa-paper-plane"></i> GỬI YÊU CẦU CHO MINH TẤN
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Us Section / Về Công Ty Xây Dựng Minh Tấn -->
+    <section id="gioi-thieu" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- 3D Design Render Showcase (Staircase Kitchen render provided) -->
+                <div class="lg:col-span-6 relative">
+                    <div class="relative z-10 rounded-2xl overflow-hidden shadow-2xl border-4 border-white group">
+                        <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1000&auto=format&fit=crop" alt="Thiết kế nội thất bếp chân cầu thang 3D - Minh Tấn Construction" class="w-full h-auto object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition"></div>
+                    </div>
+
+                    <!-- Floating Badge -->
+                    <div class="absolute -bottom-6 -right-2 sm:bottom-6 sm:right-6 z-20 bg-brand-teal text-white p-5 rounded-2xl shadow-2xl max-w-xs border border-teal-700">
+                        <div class="flex items-center gap-3 mb-1.5">
+                            <i class="fa-solid fa-cube text-amber-400 text-3xl"></i>
+                            <span class="text-xl font-black">PHỐI CẢNH 3D</span>
+                        </div>
+                        <p class="text-xs font-medium text-slate-200">
+                            Chuyên thiết kế gian bếp hiện đại dưới gầm cầu thang, lan can kính cường lực & lam gỗ cao cấp.
+                        </p>
+                    </div>
+
+                    <div class="absolute -top-6 -left-6 w-48 h-48 bg-emerald-100/80 rounded-3xl -z-0"></div>
+                </div>
+
+                <!-- Profile Content -->
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-brand-green font-bold text-xs uppercase tracking-wider">
+                         Về Chúng Tôi
+                    </div>
+
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight">
+                        CÔNG TY TNHH XÂY DỰNG <br><span class="text-brand-green">MINH TẤN CONSTRUCTION</span>
+                    </h2>
+
+                    <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
+                        <strong>Công Ty Xây Dựng Minh Tấn</strong> tự hào là nhà thầu thi công xây dựng & tư vấn thiết kế kiến trúc nội thất uy tín hàng đầu tại TP. Hồ Chí Minh, Bình Dương, Đồng Nai và các tỉnh lân cận.
+                    </p>
+
+                    <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
+                        Với triết lý hoạt động <strong>"Tận Tâm Trong Thi Công – Tinh Tế Trong Thiết Kế"</strong>, Minh Tấn không ngừng đổi mới tư duy kiến trúc, ứng dụng công nghệ dựng phối cảnh 3D hiện đại nhằm tối ưu triệt để từng mét vuông diện tích – tiêu biểu như việc chuyển hóa không gian gầm cầu thang thành hệ bếp hiện đại, tiện nghi và chuẩn phong thủy.
+                    </p>
+
+                    <!-- Core Strengths Grid -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                        <div class="flex items-start gap-3 p-3.5 rounded-xl bg-slate-50 border border-slate-200/80">
+                            <div class="w-10 h-10 rounded-lg bg-emerald-100 text-brand-green flex items-center justify-center shrink-0 font-bold">
+                                <i class="fa-solid fa-shield-cat"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800 text-sm">Vật Tư Đúng Cam Kết</h4>
+                                <p class="text-xs text-slate-500">Thép, xi măng, gạch chuẩn thương hiệu</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3 p-3.5 rounded-xl bg-slate-50 border border-slate-200/80">
+                            <div class="w-10 h-10 rounded-lg bg-teal-100 text-brand-teal flex items-center justify-center shrink-0 font-bold">
+                                <i class="fa-solid fa-clock-check"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800 text-sm">Tiến Độ Chuẩn Xác</h4>
+                                <p class="text-xs text-slate-500">Giám sát công trình túc trực 24/7</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3 p-3.5 rounded-xl bg-slate-50 border border-slate-200/80">
+                            <div class="w-10 h-10 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center shrink-0 font-bold">
+                                <i class="fa-solid fa-hard-hat"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800 text-sm">Kỹ Sư Kinh Nghiệm</h4>
+                                <p class="text-xs text-slate-500">Đội ngũ trên 10 năm kinh nghiệm</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3 p-3.5 rounded-xl bg-slate-50 border border-slate-200/80">
+                            <div class="w-10 h-10 rounded-lg bg-cyan-100 text-cyan-700 flex items-center justify-center shrink-0 font-bold">
+                                <i class="fa-solid fa-handshake-angle"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800 text-sm">Bảo Hành 5 Năm</h4>
+                                <p class="text-xs text-slate-500">Cam kết kết cấu bê tông cốt thép</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 flex flex-wrap items-center gap-4">
+                        <a href="tel:0901291239" class="px-6 py-3 bg-brand-green hover:bg-brand-darkgreen text-white rounded-xl font-bold text-sm transition shadow flex items-center gap-2">
+                            <i class="fa-solid fa-phone-volume"></i> Gọi Trực Tiếp: 0901 291 239
+                        </a>
+                        <a href="https://xaydungminhtan.com" target="_blank" class="px-6 py-3 bg-slate-100 hover:bg-slate-200 text-slate-800 rounded-xl font-bold text-sm transition border border-slate-300 flex items-center gap-2">
+                            <i class="fa-solid fa-globe"></i> xaydungminhtan.com
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Capabilities Section / Lĩnh Vực Hoạt Động & Thế Mạnh Minh Tấn -->
+    <section id="nang-luc" class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-100 bg-pattern">
+        <div class="max-w-7xl mx-auto">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="px-3 py-1 bg-emerald-100 text-brand-green text-xs uppercase font-extrabold rounded-full">Lĩnh Vực Chuyên Môn</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">
+                    NĂNG LỰC THIẾT KẾ & THI CÔNG
+                </h2>
+                <p class="text-slate-600 mt-3 text-sm sm:text-base">
+                    Minh Tấn Construction mang đến giải pháp toàn diện từ tư vấn kiến trúc, phối cảnh 3D sinh động đến thi công hoàn thiện chìa khóa trao tay.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Capability 1 -->
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-slate-200/80 group">
+                    <div class="w-16 h-16 rounded-2xl bg-brand-lightbg text-brand-green flex items-center justify-center text-3xl mb-6 group-hover:bg-brand-green group-hover:text-white transition duration-300">
+                        <i class="fa-solid fa-house-chimney"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-brand-green transition">
+                        Xây Nhà Phố Trọn Gói
+                    </h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                        Chịu trách nhiệm toàn bộ từ xin giấy phép xây dựng, khảo sát địa chất, thi công phần thô & hoàn thiện nội thất chìa khóa trao tay.
+                    </p>
+                    <ul class="text-xs text-slate-500 space-y-2.5 border-t border-slate-100 pt-4">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-600"></i> Miễn phí bản vẽ thiết kế 3D khi ký HĐ</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-600"></i> Đúng chủng loại vật tư chính hãng</li>
+                    </ul>
+                </div>
+
+                <!-- Capability 2: Highlight 3D Interior & Kitchen Staircase -->
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-2 border-brand-green/30 group bg-emerald-50/20 relative">
+                    <div class="absolute top-0 right-0 bg-brand-green text-white text-[10px] uppercase font-extrabold px-3 py-1 rounded-bl-lg">
+                        Thế Mạnh Dẫn Đầu
+                    </div>
+                    <div class="w-16 h-16 rounded-2xl bg-brand-teal text-white flex items-center justify-center text-3xl mb-6">
+                        <i class="fa-solid fa-couch"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-brand-green transition">
+                        Thiết Kế 3D Nội Thất & Bếp Cầu Thang
+                    </h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                        Chuyên giải pháp thông minh tận dụng không gian gầm cầu thang làm tủ bếp, kết hợp lam gỗ trang trí & kính cường lực sang trọng.
+                    </p>
+                    <ul class="text-xs text-slate-600 space-y-2.5 border-t border-slate-200/60 pt-4">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-600"></i> Phối cảnh 3D trực quan tỉ lệ 1:1</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-600"></i> Tối ưu không gian cho nhà phố hẹp</li>
+                    </ul>
+                </div>
+
+                <!-- Capability 3 -->
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-slate-200/80 group">
+                    <div class="w-16 h-16 rounded-2xl bg-brand-lightbg text-brand-green flex items-center justify-center text-3xl mb-6 group-hover:bg-brand-green group-hover:text-white transition duration-300">
+                        <i class="fa-solid fa-hammer"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-brand-green transition">
+                        Thi Công Phần Thô & Bê Tông Cốt Thép
+                    </h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                        Thi công kết cấu kiên cố: ép cọc móng, đà kiềng, đổ sàn bê tông cốt thép đạt tiêu chuẩn xây dựng quốc gia.
+                    </p>
+                    <ul class="text-xs text-slate-500 space-y-2.5 border-t border-slate-100 pt-4">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-600"></i> Giám sát kỹ thuật túc trực liên tục</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-600"></i> Nghiệm thu nghiêm ngặt từng công đoạn</li>
+                    </ul>
+                </div>
+
+                <!-- Capability 4 -->
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-slate-200/80 group">
+                    <div class="w-16 h-16 rounded-2xl bg-brand-lightbg text-brand-green flex items-center justify-center text-3xl mb-6 group-hover:bg-brand-green group-hover:text-white transition duration-300">
+                        <i class="fa-solid fa-compass-drafting"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-brand-green transition">
+                        Thiết Kế Kiến Trúc Mặt Tiền
+                    </h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                        Sáng tạo mặt tiền nhà phố hiện đại, tân cổ điển, hài hòa ánh sáng tự nhiên và phong thủy theo tuổi gia chủ.
+                    </p>
+                    <ul class="text-xs text-slate-500 space-y-2.5 border-t border-slate-100 pt-4">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-600"></i> Đa dạng phong cách kiến trúc</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-600"></i> Đảm bảo sự thông thoáng gió & sáng</li>
+                    </ul>
+                </div>
+
+                <!-- Capability 5 -->
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-slate-200/80 group">
+                    <div class="w-16 h-16 rounded-2xl bg-brand-lightbg text-brand-green flex items-center justify-center text-3xl mb-6 group-hover:bg-brand-green group-hover:text-white transition duration-300">
+                        <i class="fa-solid fa-wrench"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-brand-green transition">
+                        Sửa Chữa & Cải Tạo Nâng Tầng
+                    </h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                        Biến đổi nhà cũ thành không gian hiện đại, gia cố móng nâng tầng, chống thấm dứt điểm và bố trí lại công năng.
+                    </p>
+                    <ul class="text-xs text-slate-500 space-y-2.5 border-t border-slate-100 pt-4">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-600"></i> Thi công an toàn, gọn gàng</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-600"></i> Tiết kiệm chi phí tối đa</li>
+                    </ul>
+                </div>
+
+                <!-- Capability 6 -->
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-slate-200/80 group">
+                    <div class="w-16 h-16 rounded-2xl bg-brand-lightbg text-brand-green flex items-center justify-center text-3xl mb-6 group-hover:bg-brand-green group-hover:text-white transition duration-300">
+                        <i class="fa-solid fa-file-contract"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-brand-green transition">
+                        Tư Vấn Pháp Lý & Hoàn Công
+                    </h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                        Hỗ trợ trọn gói thủ tục xin cấp phép xây dựng, kiểm định bản vẽ và tư vấn hoàn công nhà ở đúng quy định pháp luật.
+                    </p>
+                    <ul class="text-xs text-slate-500 space-y-2.5 border-t border-slate-100 pt-4">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-600"></i> Đảm bảo đúng chuẩn quy hoạch</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-600"></i> Đồng hành cùng chủ nhà từ A-Z</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Materials Commitment Section / Bảng Cam Kết Vật Tư Minh Tấn -->
+    <section id="vat-tu" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-7xl mx-auto">
+            
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <span class="px-3 py-1 bg-amber-100 text-amber-800 text-xs uppercase font-extrabold rounded-full">Minh Bạch & Chất Lượng</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">
+                    CAM KẾT VẬT TƯ THI CÔNG CHÍNH HÃNG
+                </h2>
+                <p class="text-slate-600 mt-2 text-sm sm:text-base">
+                    Công Ty Xây Dựng Minh Tấn cam kết sử dụng 100% vật tư chính hãng theo đúng chủng loại trong hợp đồng. Phạt gấp đôi nếu phát hiện sai phạm.
+                </p>
+            </div>
+
+            <div class="overflow-x-auto rounded-2xl shadow-lg border border-slate-200">
+                <table class="w-full text-left text-sm text-slate-700">
+                    <thead class="bg-brand-teal text-white uppercase text-xs tracking-wider">
+                        <tr>
+                            <th class="py-4 px-6">Hạng Mục</th>
+                            <th class="py-4 px-6">Thương Hiệu / Vật Tư Cam Kết</th>
+                            <th class="py-4 px-6">Tiêu Chuẩn Kỹ Thuật Minh Tấn</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-200 bg-slate-50/50">
+                        <tr class="hover:bg-slate-100/80 transition">
+                            <td class="py-4 px-6 font-bold text-slate-900">Thép Xây Dựng</td>
+                            <td class="py-4 px-6 font-semibold text-brand-green">Thép Việt Nhật (Vina Kyoei) / Thép Hòa Phát</td>
+                            <td class="py-4 px-6 text-xs text-slate-600">Đạt tiêu chuẩn TCVN 1651-2:2018, kiểm định độ nén kéo đúng tải trọng.</td>
+                        </tr>
+                        <tr class="hover:bg-slate-100/80 transition bg-white">
+                            <td class="py-4 px-6 font-bold text-slate-900">Xi Măng Móng & Sàn</td>
+                            <td class="py-4 px-6 font-semibold text-brand-green">Xi Măng Hà Tiên Premium / Holcim (INSEE)</td>
+                            <td class="py-4 px-6 text-xs text-slate-600">Cấp phối bê tông M250 - M300 chuẩn phòng thí nghiệm, đổ bê tông thương phẩm.</td>
+                        </tr>
+                        <tr class="hover:bg-slate-100/80 transition">
+                            <td class="py-4 px-6 font-bold text-slate-900">Gạch Xây Tường</td>
+                            <td class="py-4 px-6 font-semibold text-brand-green">Gạch Tuynel Bình Dương / Gạch Tám Quỳnh 8x18cm</td>
+                            <td class="py-4 px-6 text-xs text-slate-600">Gạch chín đều, không cong vênh, xây tường 200 bao quanh & tường 100 ngăn phòng.</td>
+                        </tr>
+                        <tr class="hover:bg-slate-100/80 transition bg-white">
+                            <td class="py-4 px-6 font-bold text-slate-900">Hệ Thống Điện Âm Tường</td>
+                            <td class="py-4 px-6 font-semibold text-brand-green">Dây Điện Cadivi & Ống Gen Lắp Ruột Gà Sino</td>
+                            <td class="py-4 px-6 text-xs text-slate-600">Dây lõi đồng nguyên chất, phân chia CB riêng biệt cho máy lạnh, bếp, chiếu sáng.</td>
+                        </tr>
+                        <tr class="hover:bg-slate-100/80 transition">
+                            <td class="py-4 px-6 font-bold text-slate-900">Hệ Thống Cấp Tới Nước</td>
+                            <td class="py-4 px-6 font-semibold text-brand-green">Ống Nhựa Bình Minh (PPR chịu nhiệt & PVC)</td>
+                            <td class="py-4 px-6 text-xs text-slate-600">Thử áp lực nước 8bar trước khi tô trát, dán keo hàn nhiệt chuyên dụng dứt điểm rò rỉ.</td>
+                        </tr>
+                        <tr class="hover:bg-slate-100/80 transition bg-white">
+                            <td class="py-4 px-6 font-bold text-slate-900">Sơn Phủ & Chống Thấm</td>
+                            <td class="py-4 px-6 font-semibold text-brand-green">Sơn Jotun / Dulux Kháng Kiềm + Sika Latex TH</td>
+                            <td class="py-4 px-6 text-xs text-slate-600">Sơn 1 lớp lót, 2 lớp phủ màu. Chống thấm sàn WC, sê-no, mái 3 lớp hóa chất chuyên dụng.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Project Showcase / Thư Viện Công Trình & Thiết Kế 3D -->
+    <section id="du-an" class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-100">
+        <div class="max-w-7xl mx-auto">
+            
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <span class="px-3 py-1 bg-emerald-100 text-brand-green text-xs uppercase font-extrabold rounded-full">Bộ Sưu Tập Minh Tấn</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">
+                        MẪU THIẾT KẾ 3D & THỰC TẾ
+                    </h2>
+                </div>
+                <p class="text-slate-500 text-sm max-w-md mt-4 md:mt-0">
+                    Tổng hợp các công trình do Công Ty Xây Dựng Minh Tấn trực tiếp lên bản vẽ phối cảnh 3D và triển khai thi công.
+                </p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="flex flex-wrap gap-2 mb-8">
+                <button onclick="filterGallery('all')" class="gallery-btn active px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold bg-brand-green text-white shadow">Tất Cả Dự Án</button>
+                <button onclick="filterGallery('interior')" class="gallery-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold bg-white text-slate-600 hover:bg-slate-200 border border-slate-200">Bếp 3D & Cầu Thang Kính</button>
+                <button onclick="filterGallery('nhapho')" class="gallery-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold bg-white text-slate-600 hover:bg-slate-200 border border-slate-200">Nhà Phố Hiện Đại</button>
+                <button onclick="filterGallery('bietthu')" class="gallery-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold bg-white text-slate-600 hover:bg-slate-200 border border-slate-200">Biệt Thự & Cải Tạo</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Gallery Item 1: 3D Staircase Kitchen Render -->
+                <div class="gallery-item interior group bg-white rounded-2xl overflow-hidden shadow-md border border-slate-200">
+                    <div class="relative overflow-hidden aspect-[4/3] bg-slate-200">
+                        <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=800&auto=format&fit=crop" alt="Thiết kế nội thất bếp 3D gầm cầu thang Minh Tấn" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end p-6">
+                            <span class="text-white text-xs font-bold bg-brand-green px-3 py-1 rounded-full"><i class="fa-solid fa-cube mr-1"></i> SketchUp 3D Render</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-xs font-bold text-brand-green uppercase tracking-wider mb-1">Mẫu Thiết Kế Nội Thất 3D</div>
+                        <h3 class="font-bold text-lg text-slate-900 group-hover:text-brand-green transition">
+                            Tối Ưu Gian Bếp & Lan Can Kính Cầu Thang
+                        </h3>
+                        <p class="text-xs text-slate-500 mt-2 leading-relaxed">
+                            Bản vẽ phối cảnh 3D bếp xám hiện đại, kết hợp lam gỗ trang trí và kính cường lực gầm cầu thang cho nhà phố.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item nhapho group bg-white rounded-2xl overflow-hidden shadow-md border border-slate-200">
+                    <div class="relative overflow-hidden aspect-[4/3] bg-slate-200">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop" alt="Nhà phố 3 tầng" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end p-6">
+                            <span class="text-white text-xs font-bold bg-brand-green px-3 py-1 rounded-full"><i class="fa-solid fa-house mr-1"></i> Thi Công Trọn Gói</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-xs font-bold text-brand-green uppercase tracking-wider mb-1">Nhà Phố Kiến Trúc Mới</div>
+                        <h3 class="font-bold text-lg text-slate-900 group-hover:text-brand-green transition">
+                            Mẫu Nhà Phố 3 Tầng Hiện Đại 5x18m
+                        </h3>
+                        <p class="text-xs text-slate-500 mt-2 leading-relaxed">
+                            Công trình thi công hoàn thiện chìa khóa trao tay với không gian mở thoáng mát, ban công xanh.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item bietthu group bg-white rounded-2xl overflow-hidden shadow-md border border-slate-200">
+                    <div class="relative overflow-hidden aspect-[4/3] bg-slate-200">
+                        <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=800&auto=format&fit=crop" alt="Biệt thự sân vườn" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end p-6">
+                            <span class="text-white text-xs font-bold bg-brand-green px-3 py-1 rounded-full"><i class="fa-solid fa-crown mr-1"></i> Biệt Thự Cao Cấp</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-xs font-bold text-brand-green uppercase tracking-wider mb-1">Biệt Thự Sang Trọng</div>
+                        <h3 class="font-bold text-lg text-slate-900 group-hover:text-brand-green transition">
+                            Biệt Thự Mái Thái Cảnh Quan Sân Vườn
+                        </h3>
+                        <p class="text-xs text-slate-500 mt-2 leading-relaxed">
+                            Thiết kế kiến trúc biệt thự mái thái độc đáo kết hợp hồ bơi và sân vườn rộng rãi.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item interior group bg-white rounded-2xl overflow-hidden shadow-md border border-slate-200">
+                    <div class="relative overflow-hidden aspect-[4/3] bg-slate-200">
+                        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop" alt="Nội thất phòng khách" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end p-6">
+                            <span class="text-white text-xs font-bold bg-brand-green px-3 py-1 rounded-full"><i class="fa-solid fa-couch mr-1"></i> Nội Thất 3D</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-xs font-bold text-brand-green uppercase tracking-wider mb-1">Thiết Kế Nội Thất</div>
+                        <h3 class="font-bold text-lg text-slate-900 group-hover:text-brand-green transition">
+                            Không Gian Phòng Khách Ấm Cúng
+                        </h3>
+                        <p class="text-xs text-slate-500 mt-2 leading-relaxed">
+                            Tone xám phối gỗ ấm áp, hệ thống đèn LED âm trần hiện đại và lịch lãm.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item nhapho group bg-white rounded-2xl overflow-hidden shadow-md border border-slate-200">
+                    <div class="relative overflow-hidden aspect-[4/3] bg-slate-200">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=800&auto=format&fit=crop" alt="Nhà phố tân cổ điển" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end p-6">
+                            <span class="text-white text-xs font-bold bg-brand-green px-3 py-1 rounded-full"><i class="fa-solid fa-house mr-1"></i> Bàn Giao Gia Chủ</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-xs font-bold text-brand-green uppercase tracking-wider mb-1">Nhà Phố Tân Cổ Điển</div>
+                        <h3 class="font-bold text-lg text-slate-900 group-hover:text-brand-green transition">
+                            Nhà Phố 4 Tầng Mặt Tiền 6m
+                        </h3>
+                        <p class="text-xs text-slate-500 mt-2 leading-relaxed">
+                            Đường nét phào chỉ chỉn chu, màu sơn trắng bền đẹp chống chọi thời tiết.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 6 -->
+                <div class="gallery-item bietthu group bg-white rounded-2xl overflow-hidden shadow-md border border-slate-200">
+                    <div class="relative overflow-hidden aspect-[4/3] bg-slate-200">
+                        <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=800&auto=format&fit=crop" alt="Biệt thự góc" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end p-6">
+                            <span class="text-white text-xs font-bold bg-brand-green px-3 py-1 rounded-full"><i class="fa-solid fa-star mr-1"></i> Hoàn Thiện</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-xs font-bold text-brand-green uppercase tracking-wider mb-1">Biệt Thự Phố Góc</div>
+                        <h3 class="font-bold text-lg text-slate-900 group-hover:text-brand-green transition">
+                            Biệt Thự 2 Mặt Tiền Đẳng Cấp
+                        </h3>
+                        <p class="text-xs text-slate-500 mt-2 leading-relaxed">
+                            Thiết kế tận dụng tối đa ánh sáng tự nhiên và gió trời thông thoáng.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Reviews / Cảm Nhận Khách Hàng Thực Tế -->
+    <section id="review" class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900 text-white relative">
+        <div class="max-w-7xl mx-auto">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="px-3 py-1 bg-emerald-500/20 text-emerald-300 text-xs uppercase font-extrabold rounded-full border border-emerald-500/30">Cảm Nhận Thực Tế</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold mt-3">
+                    ĐÁNH GIÁ TỪ CHỦ ĐẦU TƯ
+                </h2>
+                <p class="text-slate-400 mt-2 text-sm sm:text-base">
+                    Niềm vui và sự an tâm của khách hàng khi nhận bàn giao công trình là động lực lớn nhất của Công Ty Xây Dựng Minh Tấn.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Review Card 1 -->
+                <div class="bg-slate-800/90 p-8 rounded-2xl border border-slate-700/80 relative flex flex-col justify-between hover:border-brand-green transition duration-300">
+                    <div>
+                        <div class="flex text-amber-400 text-sm gap-1 mb-4">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-300 text-sm italic leading-relaxed mb-6">
+                            "Tôi rất thích bản vẽ thiết kế 3D gầm cầu thang kết hợp bếp do KTS Minh Tấn thực hiện. Khi hoàn thiện thực tế y hệt bản vẽ, thợ làm việc cẩn thận, không phát sinh chi phí."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 border-t border-slate-700/60 pt-4">
+                        <div class="w-12 h-12 rounded-full bg-brand-green flex items-center justify-center font-bold text-white text-lg">
+                            M
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">Anh Minh</h4>
+                            <p class="text-xs text-emerald-400">Chủ nhà phố - Quận 7, TP.HCM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review Card 2 -->
+                <div class="bg-slate-800/90 p-8 rounded-2xl border border-slate-700/80 relative flex flex-col justify-between hover:border-brand-green transition duration-300">
+                    <div>
+                        <div class="flex text-amber-400 text-sm gap-1 mb-4">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-300 text-sm italic leading-relaxed mb-6">
+                            "Điều làm gia đình tôi an tâm nhất là Minh Tấn Construction cam kết vật tư chính hãng rất rõ ràng. Kỹ sư giám sát thường xuyên gửi nhật ký công trình hàng ngày."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 border-t border-slate-700/60 pt-4">
+                        <div class="w-12 h-12 rounded-full bg-brand-teal flex items-center justify-center font-bold text-white text-lg">
+                            T
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">Chị Tấn</h4>
+                            <p class="text-xs text-emerald-400">Chủ biệt thự - Thuận An, Bình Dương</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review Card 3 -->
+                <div class="bg-slate-800/90 p-8 rounded-2xl border border-slate-700/80 relative flex flex-col justify-between hover:border-brand-green transition duration-300">
+                    <div>
+                        <div class="flex text-amber-400 text-sm gap-1 mb-4">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-300 text-sm italic leading-relaxed mb-6">
+                            "Nhà tôi sửa chữa nâng tầng được thi công rất an toàn và đúng tiến độ cam kết. Đội ngũ thi công của Minh Tấn hỗ trợ nhiệt tình từ bản vẽ đến lúc bàn giao."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 border-t border-slate-700/60 pt-4">
+                        <div class="w-12 h-12 rounded-full bg-amber-600 flex items-center justify-center font-bold text-white text-lg">
+                            H
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">Anh Hoàng</h4>
+                            <p class="text-xs text-emerald-400">Chủ nhà phố - TP. Biên Hòa, Đồng Nai</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Workflow / Quy Trình Triển Khai 5 Bước -->
+    <section id="quy-trinh" class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+        <div class="max-w-7xl mx-auto">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="px-3 py-1 bg-emerald-100 text-brand-green text-xs uppercase font-extrabold rounded-full">Minh Bạch & Chuyên Nghiệp</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">
+                    QUY TRÌNH LÀM VIỆC 5 BƯỚC
+                </h2>
+                <p class="text-slate-600 mt-2 text-sm sm:text-base">
+                    Quy trình chuẩn hóa giúp gia chủ dễ dàng theo dõi chất lượng và tiến độ xây dựng.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
+                
+                <!-- Step 1 -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm relative group hover:border-brand-green transition">
+                    <div class="w-12 h-12 rounded-xl bg-brand-green text-white font-black text-xl flex items-center justify-center mb-4">01</div>
+                    <h3 class="font-bold text-base mb-2 text-slate-900">Khảo Sát Tận Nơi</h3>
+                    <p class="text-xs text-slate-500 leading-relaxed">Tiếp nhận thông tin, đo đạc hiện trạng đất/hẻm và lắng nghe mong muốn của gia chủ.</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm relative group hover:border-brand-green transition">
+                    <div class="w-12 h-12 rounded-xl bg-brand-teal text-white font-black text-xl flex items-center justify-center mb-4">02</div>
+                    <h3 class="font-bold text-base mb-2 text-slate-900">Dựng Phối Cảnh 3D</h3>
+                    <p class="text-xs text-slate-500 leading-relaxed">Thiết kế mặt bằng công năng và dựng hình phối cảnh 3D nội ngoại thất cho gia chủ duyệt.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm relative group hover:border-brand-green transition">
+                    <div class="w-12 h-12 rounded-xl bg-amber-600 text-white font-black text-xl flex items-center justify-center mb-4">03</div>
+                    <h3 class="font-bold text-base mb-2 text-slate-900">Ký Hợp Đồng Minh Bạch</h3>
+                    <p class="text-xs text-slate-500 leading-relaxed">Báo giá rõ ràng từng vật tư, chủng loại và tiến độ. Cam kết 100% không phát sinh.</p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm relative group hover:border-brand-green transition">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-600 text-white font-black text-xl flex items-center justify-center mb-4">04</div>
+                    <h3 class="font-bold text-base mb-2 text-slate-900">Thi Công & Giám Sát</h3>
+                    <p class="text-xs text-slate-500 leading-relaxed">Kỹ sư Minh Tấn giám sát trực tiếp tại công trình, nghiệm thu tỉ mỉ từng giai đoạn.</p>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm relative group hover:border-brand-green transition">
+                    <div class="w-12 h-12 rounded-xl bg-cyan-600 text-white font-black text-xl flex items-center justify-center mb-4">05</div>
+                    <h3 class="font-bold text-base mb-2 text-slate-900">Nghiệm Thu & Bảo Hành</h3>
+                    <p class="text-xs text-slate-500 leading-relaxed">Bàn giao công trình hoàn thiện và kích hoạt chế độ bảo hành kết cấu 5 năm.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FAQs Section / Câu Hỏi Thường Gặp -->
+    <section id="faq" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-4xl mx-auto">
+            
+            <div class="text-center mb-14">
+                <span class="px-3 py-1 bg-emerald-100 text-brand-green text-xs uppercase font-extrabold rounded-full">Giải Đáp Thắc Mắc</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-3">
+                    CÂU HỎI THƯỜNG GẶP
+                </h2>
+                <p class="text-slate-600 mt-2 text-sm">
+                    Những thắc mắc gia chủ thường quan tâm khi chuẩn bị xây dựng hoặc cải tạo nhà ở.
+                </p>
+            </div>
+
+            <div class="space-y-4">
+                
+                <!-- FAQ Item 1 -->
+                <div class="border border-slate-200 rounded-2xl overflow-hidden">
+                    <button onclick="toggleFaq(this)" class="w-full text-left p-5 font-bold text-slate-900 bg-slate-50 hover:bg-slate-100 flex justify-between items-center transition">
+                        <span>1. Công Ty Xây Dựng Minh Tấn có trực tiếp thi công không hay giao thầu?</span>
+                        <i class="fa-solid fa-chevron-down text-brand-green transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-content hidden p-5 text-sm text-slate-600 border-t border-slate-200 bg-white leading-relaxed">
+                        Minh Tấn Construction cam kết <strong>100% TRỰC TIẾP THI CÔNG</strong> với đội ngũ kỹ sư và công nhân lành nghề của công ty, hoàn toàn không qua trung gian hay bán thầu.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="border border-slate-200 rounded-2xl overflow-hidden">
+                    <button onclick="toggleFaq(this)" class="w-full text-left p-5 font-bold text-slate-900 bg-slate-50 hover:bg-slate-100 flex justify-between items-center transition">
+                        <span>2. Chính sách bảo hành công trình của Minh Tấn như thế nào?</span>
+                        <i class="fa-solid fa-chevron-down text-brand-green transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-content hidden p-5 text-sm text-slate-600 border-t border-slate-200 bg-white leading-relaxed">
+                        Chúng tôi cam kết bảo hành <strong>5 năm cho phần kết cấu bê tông cốt thép</strong> và 12 tháng cho toàn bộ các thiết bị hoàn thiện nội ngoại thất. Đội ngũ kỹ thuật sẽ có mặt kiểm tra trong 24h khi có yêu cầu.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="border border-slate-200 rounded-2xl overflow-hidden">
+                    <button onclick="toggleFaq(this)" class="w-full text-left p-5 font-bold text-slate-900 bg-slate-50 hover:bg-slate-100 flex justify-between items-center transition">
+                        <span>3. Bản vẽ thiết kế 3D có được miễn phí không?</span>
+                        <i class="fa-solid fa-chevron-down text-brand-green transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-content hidden p-5 text-sm text-slate-600 border-t border-slate-200 bg-white leading-relaxed">
+                        Có. Khi quý khách ký hợp đồng thi công trọn gói hoặc thi công phần thô với Minh Tấn Construction, chúng tôi sẽ <strong>miễn phí 100% chi phí thiết kế kiến trúc và phối cảnh 3D</strong> nội thất.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="border border-slate-200 rounded-2xl overflow-hidden">
+                    <button onclick="toggleFaq(this)" class="w-full text-left p-5 font-bold text-slate-900 bg-slate-50 hover:bg-slate-100 flex justify-between items-center transition">
+                        <span>4. Minh Tấn nhận thiết kế & thi công ở những khu vực nào?</span>
+                        <i class="fa-solid fa-chevron-down text-brand-green transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-content hidden p-5 text-sm text-slate-600 border-t border-slate-200 bg-white leading-relaxed">
+                        Chúng tôi phục vụ trên toàn bộ khu vực TP. Hồ Chí Minh (tất cả các quận huyện), tỉnh Bình Dương, Đồng Nai, Long An, Bà Rịa - Vũng Tàu và các tỉnh Tây Nam Bộ.
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section / Liên Hệ Trực Tiếp Minh Tấn -->
+    <section id="lien-he" class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-100">
+        <div class="max-w-7xl mx-auto">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                
+                <!-- Contact Information -->
+                <div class="lg:col-span-5 space-y-6">
+                    <div>
+                        <span class="px-3 py-1 bg-emerald-100 text-brand-green text-xs uppercase font-extrabold rounded-full">Kết Nối Trực Tiếp</span>
+                        <h2 class="text-3xl font-extrabold text-slate-900 mt-3">
+                            MINH TẤN CONSTRUCTION
+                        </h2>
+                        <p class="text-slate-600 text-sm mt-2">
+                            Liên hệ ngay với chúng tôi để nhận tư vấn kiến trúc & giải pháp không gian bếp 3D hoàn toàn miễn phí!
+                        </p>
+                    </div>
+
+                    <div class="space-y-4 pt-2">
+                        
+                        <div class="flex items-start gap-4 p-4 rounded-xl bg-white shadow-sm border border-slate-200">
+                            <div class="w-12 h-12 rounded-xl bg-brand-lightbg text-brand-green flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-solid fa-phone-volume"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">Hotline / Zalo Tư Vấn</h4>
+                                <a href="tel:0901291239" class="text-xl font-black text-brand-green hover:underline">0901 291 239</a>
+                                <p class="text-xs text-slate-500">Hỗ trợ tư vấn 24/7</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-xl bg-white shadow-sm border border-slate-200">
+                            <div class="w-12 h-12 rounded-xl bg-brand-lightbg text-brand-green flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-solid fa-globe"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">Website Chính Thức</h4>
+                                <a href="https://xaydungminhtan.com" target="_blank" class="text-sm font-bold text-slate-800 hover:text-brand-green">xaydungminhtan.com</a>
+                                <p class="text-xs text-slate-500">Cập nhật mẫu thiết kế & công trình mới</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-xl bg-white shadow-sm border border-slate-200">
+                            <div class="w-12 h-12 rounded-xl bg-brand-lightbg text-brand-green flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">Khu Vực Hoạt Động</h4>
+                                <p class="text-sm text-slate-700 font-medium">TP. Hồ Chí Minh, Bình Dương, Đồng Nai & Các Tỉnh Lân Cận</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Main Form -->
+                <div class="lg:col-span-7 bg-white rounded-3xl p-8 shadow-xl border border-slate-200">
+                    <h3 class="text-xl font-extrabold text-slate-900 mb-1">GỬI YÊU CẦU TƯ VẤN THIẾT KẾ</h3>
+                    <p class="text-xs text-slate-500 mb-6">Kiến trúc sư Minh Tấn Construction sẽ chủ động liên hệ tư vấn lại trong vòng 15 phút.</p>
+
+                    <form onsubmit="handleFormSubmit(event)" class="space-y-4">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Họ & Tên *</label>
+                                <input type="text" required placeholder="Nguyễn Văn A" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-green text-sm outline-none">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Số Điện Thoại / Zalo *</label>
+                                <input type="tel" required placeholder="0901 xxx xxx" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-green text-sm outline-none">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Địa điểm công trình</label>
+                            <input type="text" placeholder="Ví dụ: Quận 12, TP.HCM hoặc Dĩ An, Bình Dương..." class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-green text-sm outline-none">
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Nội dung tư vấn</label>
+                            <textarea rows="3" placeholder="Nhập nhu cầu tư vấn thiết kế 3D, thi công nhà phố hoặc cải tạo..." class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-green text-sm outline-none resize-none"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full py-4 bg-brand-green hover:bg-brand-darkgreen text-white font-extrabold rounded-xl shadow-lg transition duration-300 flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-paper-plane"></i> GỬI YÊU CẦU CHO MINH TẤN CONSTRUCTION
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-darkteal text-slate-400 text-sm py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-8 border-b border-slate-800">
+                
+                <div class="md:col-span-5 space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="h-10 w-auto bg-white rounded p-1 flex items-center justify-center">
+                            <svg viewBox="0 0 300 240" class="h-full w-auto">
+                                <path d="M 20 180 L 75 100 L 110 140 L 140 70 L 170 140 L 210 80 L 210 180 L 180 180 L 180 120 L 150 160 L 130 160 L 100 120 L 70 160 L 45 180 Z" fill="#126336" />
+                                <path d="M 140 10 L 140 70 L 120 50 L 120 10 Z" fill="#126336" />
+                                <path d="M 180 30 L 180 70 L 160 50 L 160 30 Z" fill="#126336" />
+                                <path d="M 190 60 L 270 60 L 270 90 L 225 90 L 225 180 L 195 180 L 195 90 L 190 90 Z" fill="#103947" />
+                            </svg>
+                        </div>
+                        <span class="text-xl font-black text-white tracking-wider font-heading">MINH TẤN CONSTRUCTION</span>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        CÔNG TY TNHH XÂY DỰNG MINH TẤN - Đơn vị thi công xây dựng trọn gói & thiết kế phối cảnh 3D kiến trúc nội thất uy tín hàng đầu.
+                    </p>
+                    <p class="text-xs text-slate-300">
+                        Hotline: <strong class="text-amber-400">0901 291 239</strong> | Website: <strong class="text-white">xaydungminhtan.com</strong>
+                    </p>
+                </div>
+
+                <div class="md:col-span-3 space-y-3">
+                    <h4 class="text-white font-bold text-sm uppercase">Dịch Vụ Nổi Bật</h4>
+                    <ul class="text-xs space-y-2">
+                        <li><a href="#nang-luc" class="hover:text-amber-400 transition">Xây Nhà Phố Trọn Gói</a></li>
+                        <li><a href="#nang-luc" class="hover:text-amber-400 transition">Thiết Kế 3D Bếp & Nội Thất</a></li>
+                        <li><a href="#nang-luc" class="hover:text-amber-400 transition">Thi Công Bê Tông Kiên Cố</a></li>
+                        <li><a href="#nang-luc" class="hover:text-amber-400 transition">Sửa Chữa & Cải Tạo Nâng Tầng</a></li>
+                    </ul>
+                </div>
+
+                <div class="md:col-span-4 space-y-3">
+                    <h4 class="text-white font-bold text-sm uppercase">Cam Kết Từ Minh Tấn</h4>
+                    <ul class="text-xs space-y-2 text-slate-300">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Trực tiếp thi công 100%, không bán thầu</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Không phát sinh chi phí ngoài hợp đồng</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Đúng chủng loại vật tư chính hãng</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Bảo hành 5 năm kết cấu an tâm</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="pt-8 text-center text-xs text-slate-500">
+                © 2026 CÔNG TY XÂY DỰNG MINH TẤN (MINH TAN CONSTRUCTION). Hotline: 0901 291 239 | xaydungminhtan.com
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+        <!-- Zalo Chat -->
+        <a href="https://zalo.me/0901291239" target="_blank" class="w-14 h-14 bg-blue-600 text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition duration-300 relative group" title="Chat Zalo">
+            <span class="font-black text-xs">ZALO</span>
+            <span class="absolute right-16 bg-slate-900 text-white text-xs font-medium px-3 py-1 rounded-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition duration-200 shadow">
+                Chat Zalo Với Minh Tấn
+            </span>
+        </a>
+
+        <!-- Phone Call Hot Button -->
+        <a href="tel:0901291239" class="w-14 h-14 bg-brand-green text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition duration-300 animate-bounce relative group" title="Gọi Hotline">
+            <i class="fa-solid fa-phone text-2xl"></i>
+            <span class="absolute right-16 bg-slate-900 text-white text-xs font-medium px-3 py-1 rounded-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition duration-200 shadow">
+                Hotline: 0901 291 239
+            </span>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Mobile Navigation Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        document.querySelectorAll('#mobileMenu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // FAQ Toggle Accordion
+        function toggleFaq(btn) {
+            const content = btn.nextElementSibling;
+            const icon = btn.querySelector('i');
+            
+            content.classList.toggle('hidden');
+            icon.classList.toggle('rotate-180');
+        }
+
+        // Project Gallery Category Filter
+        function filterGallery(category) {
+            const items = document.querySelectorAll('.gallery-item');
+            const btns = document.querySelectorAll('.gallery-btn');
+
+            btns.forEach(btn => {
+                btn.classList.remove('bg-brand-green', 'text-white', 'shadow');
+                btn.classList.add('bg-white', 'text-slate-600', 'border', 'border-slate-200');
+            });
+
+            event.currentTarget.classList.remove('bg-white', 'text-slate-600', 'border', 'border-slate-200');
+            event.currentTarget.classList.add('bg-brand-green', 'text-white', 'shadow');
+
+            items.forEach(item => {
+                if (category === 'all' || item.classList.contains(category)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        // Form Submission Toast Notification
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const messageBox = document.createElement('div');
+            messageBox.className = 'fixed top-5 right-5 z-50 bg-brand-green text-white p-4 rounded-xl shadow-2xl flex items-center gap-3 border border-emerald-400 animate-fade-in';
+            messageBox.innerHTML = '<i class="fa-solid fa-circle-check text-2xl text-amber-300"></i> <div><p class="font-bold">Gửi yêu cầu thành công!</p><p class="text-xs text-slate-100">KTS Minh Tấn Construction (Hotline 0901 291 239) sẽ liên hệ tư vấn ngay.</p></div>';
+            document.body.appendChild(messageBox);
+
+            setTimeout(() => {
+                messageBox.remove();
+            }, 5000);
+
+            e.target.reset();
+        }
+    </script>
+</body>
+</html>
